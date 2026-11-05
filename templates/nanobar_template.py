@@ -10,8 +10,8 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from gds_templates.common import WaferSpec, add_matrix_labels, duplicate_diagonal_pair, place_on_wafer, write_gds
-from gds_templates.nanostructures import make_bar, make_regular_array
+from helpers.common import WaferSpec, add_matrix_labels, duplicate_diagonal_pair, place_on_wafer, write_gds
+from helpers.nanostructures import make_bar, make_regular_array
 from phidl import Device
 
 

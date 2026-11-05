@@ -9,8 +9,8 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from gds_templates.common import write_gds
-from gds_templates.mea import MEASpec, make_mea_device, tile_mea_devices
+from helpers.common import write_gds
+from helpers.mea import MEASpec, make_mea_device, tile_mea_devices
 
 
 # Parameters
