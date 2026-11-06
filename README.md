@@ -1,4 +1,4 @@
-# Nanopattern design templates
+# Design templates for photo and e-beam lithography
 
 Design templates and engineering source files for generating nanobar, nanopillar, NanoX, gradient array nanostructure, and MEA electrode GDS layouts for photolithography systems (Heidelberg MLA-150) or electron beam lithography systems (Raith EBPG 5200+) at nano@stanford Facilities.
 
